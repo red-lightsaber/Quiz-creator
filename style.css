@@ -1,5 +1,6 @@
 Body{
-Font-family: Montserrat;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+font-family: 'Comfortaa', cursive;
 Padding: 20px;
 Margin: auto;
 background-color: #150054;
