@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Which of these is an animal?</h3>
+
+<input type="radio" name="q1" value="1" onclick="myFunction('Correct!')">
+<label for="q1">Cat</label><br>
+
+<input type="radio" name="q1" value="2" onclick="myFunction('Wrong!')">
+<label for="q1">Car</label><br>
+
+<p id="q1"></p>
+
+<script>
+function myFunction(answer) {
+  document.getElementById("q1").innerHTML = answer;
+  document.getElementById("1").disabled=true;
+  document.getElementById("2").disabled=true;
+}
+</script>
+
+</body>
+</html>
