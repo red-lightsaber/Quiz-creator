@@ -14,10 +14,10 @@
 <p id="q1">...</p>
 <!q2>
 <h3>Which of these is a vehicle?</h3>
-<input type="radio" name="q2" value="1" onclick="myFunction('Correct!')">
+<input type="radio" name="q2" value="1" onclick="myFunction2('Correct!')">
 <label for="q2">Bus</label><br>
 
-<input type="radio" name="q2" value="2" onclick="myFunction('Wrong!')">
+<input type="radio" name="q2" value="2" onclick="myFunction2('Wrong!')">
 <label for="q2">Mat</label><br>
 
 <p id="q2">...</p>
@@ -26,7 +26,7 @@
 function myFunction(answer) {
   document.getElementById("q1").innerHTML = answer;
 }
-function myFunction(answer) {
+function myFunction2(answer) {
   document.getElementById("q2").innerHTML = answer;
 }
 </script>
